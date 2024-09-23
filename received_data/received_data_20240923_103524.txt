@@ -1,0 +1,65 @@
+receivedPacketWithRSSI :-33dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 0A 18 05 33 FF E7 FF FF 08 E7 FF FF 08 E7 FF FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DF 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x0A
+data[0]: 24
+data[1]: 5
+data[2]: 51
+data[3]: 0
+data[4]: 231
+data[5]: 0
+data[6]: 0
+data[7]: 8
+data[8]: 231
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 231
+data[13]: 0
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 95dB
+
+
+

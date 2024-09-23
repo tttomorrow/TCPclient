@@ -1,0 +1,667 @@
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020202ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020203ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020204ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020205ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020206ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030208ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030209ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-11dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303020affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303020bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303020cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303020dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff01010202020effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303020fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020210ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030211ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 2
+ffff09ffff010102020212ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 2 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030213ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030214ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030215ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030216ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030217ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030218ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030219ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-32dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303021affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-57dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303021bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-31dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303021cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303021dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-59dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 03 18 06 32 FF E8 0A FF 20 D5 FF FF 08 3D 1D FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 C5 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x03
+data[0]: 24
+data[1]: 6
+data[2]: 50
+data[3]: 0
+data[4]: 232
+data[5]: 10
+data[6]: 0
+data[7]: 32
+data[8]: 213
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 61
+data[13]: 29
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 9F 
+
+currentChannelNoise: -97dBm
+
+currentChannelSNR: 38dB
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303021fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030220ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-2dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030221ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-8dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030222ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030223ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030224ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030225ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-2dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030226ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030227ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030228ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030229ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-32dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-34dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303022fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030230ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030231ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-7dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030232ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030233ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030234ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030235ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-6dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030236ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-12dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030237ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-32dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030238ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030239ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-8dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303023fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-6dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030240ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-7dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030241ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-6dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030242ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030243ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-7dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030244ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-9dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030245ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-10dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030246ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-11dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030247ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030248ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030249ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-9dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024bffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-7dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-2dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-10dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff01010303024fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-1dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030250ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030251ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-5dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030252ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030253ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030254ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030255ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-6dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030256ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030257ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030258ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+

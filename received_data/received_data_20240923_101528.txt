@@ -1,0 +1,635 @@
+***CONNECT SERVER SUCCEED***
+receivedPacketWithRSSI :-4dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030201ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-8dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030202ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-6dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030203ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-3dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030204ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-20dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030205ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030206ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-33dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 03 18 03 33 FF E8 0A FF 20 D5 FF FF 08 3D 1D FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DF 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x03
+data[0]: 24
+data[1]: 3
+data[2]: 51
+data[3]: 0
+data[4]: 232
+data[5]: 10
+data[6]: 0
+data[7]: 32
+data[8]: 213
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 61
+data[13]: 29
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 95dB
+
+
+
+receivedPacketWithRSSI :-31dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 04 18 04 33 FF CF 1B FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 E1 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x04
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 207
+data[5]: 27
+data[6]: 0
+data[7]: 8
+data[8]: 0
+data[9]: 0
+data[10]: 0
+data[11]: 0
+data[12]: 0
+data[13]: 0
+data[14]: 0
+data[15]: 0
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 97dB
+
+
+
+receivedPacketWithRSSI :-246dBm
+Route table:01?01, ; Routeindex: i=0
+Received Route Request from 3
+ffff09ffff010103030209ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffRoute Reply sent to 3 from node1
+
+
+
+receivedPacketWithRSSI :-34dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 03 18 04 33 FF E8 0A FF 20 D5 FF FF 08 3D 1D FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DE 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x03
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 232
+data[5]: 10
+data[6]: 0
+data[7]: 32
+data[8]: 213
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 61
+data[13]: 29
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 94dB
+
+
+
+receivedPacketWithRSSI :-33dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 04 18 04 33 FF CF 1B FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DF 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x04
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 207
+data[5]: 27
+data[6]: 0
+data[7]: 8
+data[8]: 0
+data[9]: 0
+data[10]: 0
+data[11]: 0
+data[12]: 0
+data[13]: 0
+data[14]: 0
+data[15]: 0
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 95dB
+
+
+
+receivedPacketWithRSSI :-2dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 05 18 04 33 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 FE 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x05
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 0
+data[5]: 0
+data[6]: 0
+data[7]: 0
+data[8]: 0
+data[9]: 0
+data[10]: 0
+data[11]: 0
+data[12]: 0
+data[13]: 0
+data[14]: 0
+data[15]: 0
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 126dB
+
+
+
+receivedPacketWithRSSI :-33dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 06 18 04 33 FF FF FF FF FF FF FF FF FF 8F 1E FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DF 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x06
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 0
+data[5]: 0
+data[6]: 0
+data[7]: 0
+data[8]: 0
+data[9]: 0
+data[10]: 0
+data[11]: 0
+data[12]: 143
+data[13]: 30
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 95dB
+
+
+
+receivedPacketWithRSSI :-32dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 07 18 04 33 FF FF FF FF FF FF FF FF FF 8D 1E FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 E0 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x07
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 0
+data[5]: 0
+data[6]: 0
+data[7]: 0
+data[8]: 0
+data[9]: 0
+data[10]: 0
+data[11]: 0
+data[12]: 141
+data[13]: 30
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 96dB
+
+
+
+receivedPacketWithRSSI :-31dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 08 18 04 33 FF 91 1E FF 08 E7 FF FF 08 E7 FF FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 E1 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x08
+data[0]: 24
+data[1]: 4
+data[2]: 51
+data[3]: 0
+data[4]: 145
+data[5]: 30
+data[6]: 0
+data[7]: 8
+data[8]: 231
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 231
+data[13]: 0
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 97dB
+
+
+
+receivedPacketWithRSSI :-33dBm
+
+Received Data Packet from 3 with node 3 forward
+Acknowledgement sent to 3
+FF FF 03 03 01 01 03 09 18 05 33 FF E7 FF FF 08 E7 FF FF 08 E7 FF FF 08 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 0D 0A 00 00 00 00 00 00 00 00 00 00 00 DF 00 00 
+sourceMacH: 0xFF
+sourceMacL: 0xFF
+sourceID: 0x03
+forwardID: 0x03
+forwardtoID: 0x01
+destID: 0x01
+protocol: 0x03
+packetID: 0x09
+data[0]: 24
+data[1]: 5
+data[2]: 51
+data[3]: 0
+data[4]: 231
+data[5]: 0
+data[6]: 0
+data[7]: 8
+data[8]: 231
+data[9]: 0
+data[10]: 0
+data[11]: 8
+data[12]: 231
+data[13]: 0
+data[14]: 0
+data[15]: 8
+data[16]: 0
+data[17]: 0
+data[18]: 0
+data[19]: 0
+data[20]: 0
+data[21]: 0
+data[22]: 0
+data[23]: 0
+data[24]: 0
+data[25]: 0
+data[26]: 0
+data[27]: 0
+data[28]: 0
+data[29]: 0
+data[30]: 0
+data[31]: 0
+data[32]: 0
+data[33]: 0
+data[34]: 0
+data[35]: 0
+data[36]: 0
+data[37]: 0
+data[38]: 0
+data[39]: 0
+
+ M1 = 0; M0 = 0 
+
+
+LORA REG CODE 4 REG->C1 00 01 80 
+
+currentChannelNoise: -128dBm
+
+currentChannelSNR: 95dB
+
+
+
