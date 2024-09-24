@@ -17,10 +17,11 @@ def init_db():
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
-    # 创建 DataPacket 表，存储基本信息（温度、湿度）
+    # 创建 DataPacket 表，
+    # （源mac地址高位，源mac地址地位，源节点ID，转发节点ID，转发到节点ID，目的节点ID，协议类型，温度，湿度）
     cursor.execute('''CREATE TABLE IF NOT EXISTS DataPacket (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        sourceMacH INTEGER,
+                        sourceMacH INTEGER, 
                         sourceMacL INTEGER,
                         sourceID INTEGER,
                         forwardID INTEGER,
@@ -33,6 +34,7 @@ def init_db():
                     )''')
 
     # 创建 SnifferTable 表，存储监听表信息
+    # （数据包ID， 最后监听时间，被监听者ID，监听者ID，被监听者转发数据包次数，发送温湿度数据次数，发送ack次数，路由查询次数，路由回复次数，最后的监听信道RSSI）
     cursor.execute('''CREATE TABLE IF NOT EXISTS SnifferTable (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         data_packet_id INTEGER,
@@ -49,6 +51,8 @@ def init_db():
                     )''')
 
     # 创建 PathInfo 表，存储节点ID、RSSI和环境噪声
+    # 路径经过的节点ID，当前节点到上个路径节点间的RSSI，当前节点到上个路径节点间的环境噪声RSSI
+    # 每个data_packet_id对应一条路径
     cursor.execute('''CREATE TABLE IF NOT EXISTS PathInfo (
                            id INTEGER PRIMARY KEY AUTOINCREMENT,
                            data_packet_id INTEGER,
