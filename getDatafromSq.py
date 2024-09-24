@@ -3,7 +3,7 @@ import sqlite3
 
 # 查询数据库内容
 
-DB_FILE = 'sensor_data_20240924_105233.db'
+DB_FILE = 'sensor_data_20240924_111255.db'
 
 def query_db():
     # 连接到数据库

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web</title>
+    <meta charset="UTF-8">
+ 
+</head>
+
+<body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<div id='test'> </div>
+<script type="text/javascript" charset="UTF-8">
+    $(document).ready(function() {
+        // 连上服务器
+        const socket = io.connect("http://127.0.0.1:8000/webServer" );
+
+        // 发送message 消息
+        socket.emit("message",{"data":"hello world!"});
+
+        // 收到数据后,执行输出
+        socket.on('serverSay', function(recv) {
+            console.log('hello： ' + recv.data)
+			$('#test').append( "<p>"+recv.data+"</p>")
+        });
+    });
+</script>
+</body>
+</html>
