@@ -190,7 +190,14 @@ def start_server():
                                 # 保存过滤后的数据到数据库
                                 save_data_to_db(filtered_data)
                                 #发送filtered_data
+
+
+                                #此处为数据传输接口，数据库文件处理后转json传至前端
                                 requests.request('POST',"http://localhost:8000/hasReceivedData",json=filtered_data)#zjj,filtered_data为传到前端的数据，json格式,需要修改
+
+
+
+
                         except socket.timeout:
                             print(f"超过 {TIMEOUT} 秒未收到数据，断开连接并等待新连接...")
                             break  # 超时，断开连接并等待下一个连接
