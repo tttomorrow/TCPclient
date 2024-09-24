@@ -235,7 +235,7 @@ def start_server():
                             # 将接收到的数据存入缓冲区
                             data_buffer += data
 
-                            # 检查缓冲区是否包含完整的数据包（假设数据包以 '\r\n' 结尾）
+                            # 检查缓冲区是否包含完整的数据包（数据包以 'dB\r\n' 结尾）
                             if b'dB\r\n' in data_buffer:
                                 # 分割数据包
                                 packets = data_buffer.split(b'dB\r\n')
