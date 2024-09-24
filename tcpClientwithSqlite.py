@@ -48,12 +48,22 @@ def init_db():
                         FOREIGN KEY (data_packet_id) REFERENCES DataPacket (id)
                     )''')
 
+    # 创建 PathInfo 表，存储节点ID、RSSI和环境噪声
+    cursor.execute('''CREATE TABLE IF NOT EXISTS PathInfo (
+                           id INTEGER PRIMARY KEY AUTOINCREMENT,
+                           data_packet_id INTEGER,
+                           node_id INTEGER,
+                           rssi INTEGER,
+                           noise INTEGER,
+                           FOREIGN KEY (data_packet_id) REFERENCES DataPacket (id)
+                       )''')
+
     conn.commit()
     conn.close()
 
 
 # 将解析后的数据保存到数据库中
-def save_data_to_db(packet_data):
+def save_data_to_db(packet_data, RSSI, envirRSSI):
     # 过滤掉非十六进制字符，只保留有效的十六进制字符
     packet_data = re.sub(r'[^0-9A-Fa-f]', '', packet_data)
 
@@ -110,12 +120,16 @@ def save_data_to_db(packet_data):
     sniffer_tables = []
     sniffer_start = 12  # 监听表从第 12 字节开始
     for i in range(2):  # 两个监听表
+        lastsnifftime = int.from_bytes(data_bytes[sniffer_start:sniffer_start + 4], 'big', signed=False)
+        if lastsnifftime == 0 or data_bytes[sniffer_start + 5] == 0:
+            sniffer_start += 12  # 每个监听表 12 字节
+            continue
         if len(data_bytes) < sniffer_start + 12:
             print(f"监听表数据长度不足: {data_bytes[sniffer_start:]}")
             continue
 
         sniffer_data = {
-            "lastSniffTime": int.from_bytes(data_bytes[sniffer_start:sniffer_start + 4], 'big'),
+            "lastSniffTime": lastsnifftime,
             "sourceID": data_bytes[sniffer_start + 4],
             "snifferID": data_bytes[sniffer_start + 5],
             "forwardCount": data_bytes[sniffer_start + 6],
@@ -123,7 +137,7 @@ def save_data_to_db(packet_data):
             "ackCount": data_bytes[sniffer_start + 8],
             "routeReqCount": data_bytes[sniffer_start + 9],
             "routeRepCount": data_bytes[sniffer_start + 10],
-            "lastRSSI": data_bytes[sniffer_start + 11]
+            "lastRSSI": data_bytes[sniffer_start + 11] - 256
         }
         sniffer_tables.append(sniffer_data)
         sniffer_start += 12  # 每个监听表 12 字节
@@ -136,9 +150,33 @@ def save_data_to_db(packet_data):
                         sniffer_table['forwardCount'], sniffer_table['sourceCount'], sniffer_table['ackCount'],
                         sniffer_table['routeReqCount'], sniffer_table['routeRepCount'], sniffer_table['lastRSSI']))
 
+    # 解析从第37字节开始的节点信息
+    parse_and_save_path_info(cursor, data_packet_id, data_bytes[36:], data_bytes, RSSI, envirRSSI)
+
     conn.commit()
     conn.close()
 
+# 解析从第37字节开始的节点信息，每三个字节为一组
+def parse_and_save_path_info(cursor, data_packet_id, node_data_bytes, data_bytes, RSSI, envirRSSI):
+    if len(node_data_bytes) < 3:
+        print("没有足够的数据解析节点信息")
+        return
+
+    cursor.execute('''INSERT INTO PathInfo (data_packet_id, node_id, rssi, noise)
+                              VALUES (?, ?, ?, ?)''', (data_packet_id, data_bytes[2], 0, 0))
+
+    for i in range(0, len(node_data_bytes), 3):
+        if i + 2 >= len(node_data_bytes) or node_data_bytes[i] == 0:
+            break  # 确保不会超出数据范围
+        node_id = node_data_bytes[i]
+        rssi = node_data_bytes[i + 1] -256
+        noise = node_data_bytes[i + 2] - 256  # 环境噪声需要减去256
+
+        cursor.execute('''INSERT INTO PathInfo (data_packet_id, node_id, rssi, noise)
+                          VALUES (?, ?, ?, ?)''', (data_packet_id, node_id, rssi, noise))
+
+    cursor.execute('''INSERT INTO PathInfo (data_packet_id, node_id, rssi, noise)
+                                  VALUES (?, ?, ?, ?)''', (data_packet_id, data_bytes[5], RSSI, envirRSSI))
 
 
 # 过滤掉无用的数据，只保留以"FF FF"开头并以换行结束的数据
@@ -148,6 +186,17 @@ def filter_data(data):
         return match.group(0)  # 返回匹配到的数据
     return None  # 未匹配到返回None
 
+def getRSSItoCH(data):
+    match = re.search(r'receivedPacketWithRSSI: (-?\d+)dBm', data)
+    if match:
+        return match.group(1)  # 返回匹配到的数据
+    return None  # 未匹配到返回None
+
+def getEnvirRSSItoCH(data):
+    match = re.search(r'currentChannelNoise: (-?\d+)dBm', data)
+    if match:
+        return match.group(1)  # 返回匹配到的数据
+    return None  # 未匹配到返回None
 
 def start_server():
     # 初始化数据库
@@ -160,6 +209,8 @@ def start_server():
         # 监听来自客户端的连接
         server_socket.listen()
         print(f"服务器已启动，正在监听 {HOST}:{PORT}")
+        # 创建一个缓冲区来存储数据
+        data_buffer = b''
 
         while True:
             try:
@@ -177,15 +228,29 @@ def start_server():
                             if not data:
                                 break  # 客户端断开连接
 
-                            decoded_data = data.decode('utf-8', errors='ignore')
-                            print(f"接收到的数据: {decoded_data}")
+                            # 将接收到的数据存入缓冲区
+                            data_buffer += data
 
-                            # 过滤数据
-                            filtered_data = filter_data(decoded_data)
-                            if filtered_data:
-                                print(f"过滤后的数据: {filtered_data}")
-                                # 保存过滤后的数据到数据库
-                                save_data_to_db(filtered_data)
+                            # 检查缓冲区是否包含完整的数据包（假设数据包以 '\r\n' 结尾）
+                            if b'dB\r\n' in data_buffer:
+                                # 分割数据包
+                                packets = data_buffer.split(b'dB\r\n')
+
+                                # 处理所有完整的数据包
+                                for packet in packets[:-1]:
+                                    decoded_data = packet.decode('utf-8', errors='ignore')
+                                    print(f"接收到的数据: {decoded_data}")
+
+                                    # 过滤数据
+                                    filtered_data = filter_data(decoded_data)
+                                    RSSI = getRSSItoCH(decoded_data)
+                                    envirRSSI = getEnvirRSSItoCH(decoded_data)
+
+                                    if filtered_data and RSSI and envirRSSI:
+                                        print(f"过滤后的数据: {filtered_data}")
+                                        print(RSSI, envirRSSI)
+                                        # 保存过滤后的数据到数据库
+                                        save_data_to_db(filtered_data, RSSI, envirRSSI)
                         except socket.timeout:
                             print(f"超过 {TIMEOUT} 秒未收到数据，断开连接并等待新连接...")
                             break  # 超时，断开连接并等待下一个连接

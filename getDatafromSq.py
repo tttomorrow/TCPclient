@@ -3,7 +3,7 @@ import sqlite3
 
 # 查询数据库内容
 
-DB_FILE = 'sensor_data_20240923_113138.db'
+DB_FILE = 'sensor_data_20240924_105233.db'
 
 def query_db():
     # 连接到数据库
@@ -11,7 +11,7 @@ def query_db():
     cursor = conn.cursor()
 
     # 查询所有数据
-    cursor.execute("SELECT * FROM DataPacket")
+    cursor.execute("SELECT * FROM PathInfo")
 
     # 获取所有行
     rows = cursor.fetchall()
