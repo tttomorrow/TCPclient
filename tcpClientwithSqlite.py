@@ -102,7 +102,7 @@ def save_data_to_db(packet_data, RSSI, envirRSSI):
         "forwardtoID": data_bytes[4],
         "destID": data_bytes[5],
         "protocol":  data_bytes[6],
-        "packetID": data_bytes[2] << 8 | data_bytes[7],
+        "packetID": data_bytes[7],
         "temperature": temperature,
         "humidity": humidity
     }
